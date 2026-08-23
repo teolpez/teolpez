@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="terminal.svg" alt="Mateo Lopez Profile Card" />
+  <img src="https://raw.githubusercontent.com/teolpez/teolpez/main/terminal.svg" alt="Mateo Lopez Profile Card" width="100%" />
 </p>
 
 <p align="center">
