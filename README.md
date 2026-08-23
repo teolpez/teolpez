@@ -1,4 +1,6 @@
-![Mateo Lopez Profile Card](terminal.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/teolpez/teolpez/main/terminal.svg" alt="Mateo Lopez" width="100%">
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/teolpz" target="_blank">
