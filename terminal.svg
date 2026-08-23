@@ -1,73 +1,234 @@
-<svg width="780" height="360" viewBox="0 0 780 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="780" height="360" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
-  
-  <!-- Top Bar -->
-  <path d="M0 10C0 4.47715 4.47715 0 10 0H770C775.523 0 780 4.47715 780 10V38H0V10Z" fill="#161B22"/>
-  <line x1="0" y1="38" x2="780" y2="38" stroke="#30363D" stroke-width="1"/>
-  
-  <!-- Window Controls -->
-  <circle cx="24" cy="19" r="6" fill="#FF5F56"/>
-  <circle cx="44" cy="19" r="6" fill="#FFBD2E"/>
-  <circle cx="64" cy="19" r="6" fill="#27C93F"/>
-  
-  <text x="390" y="24" fill="#8B949E" font-family="monospace" font-size="12" text-anchor="middle">mateo@github: ~</text>
-  
-  <!-- Sidebar -->
-  <rect x="0" y="38" width="170" height="322" fill="#090D13"/>
-  <line x1="170" y1="38" x2="170" y2="360" stroke="#30363D" stroke-width="1"/>
-  
-  <text x="20" y="70" fill="#6E7681" font-family="sans-serif" font-size="11" font-weight="bold" letter-spacing="1">EXPLORER</text>
-  <text x="20" y="98" fill="#8B949E" font-family="monospace" font-size="12">📁 src</text>
-  <text x="32" y="122" fill="#58A6FF" font-family="monospace" font-size="12" font-weight="bold">📄 profile.json</text>
-  <text x="32" y="146" fill="#8B949E" font-family="monospace" font-size="12">📄 main.c</text>
-  <text x="32" y="170" fill="#8B949E" font-family="monospace" font-size="12">📄 App.java</text>
-  <text x="32" y="194" fill="#8B949E" font-family="monospace" font-size="12">📄 script.py</text>
-  
-  <!-- Code Area - Line Numbers -->
-  <g font-family="monospace" font-size="13" fill="#484F58" text-anchor="end">
-    <text x="205" y="75">1</text>
-    <text x="205" y="100">2</text>
-    <text x="205" y="125">3</text>
-    <text x="205" y="150">4</text>
-    <text x="205" y="175">5</text>
-    <text x="205" y="200">6</text>
-    <text x="205" y="225">7</text>
-    <text x="205" y="250">8</text>
-    <text x="205" y="275">9</text>
-  </g>
-  
-  <!-- Code Area - JSON Content -->
-  <g font-family="monospace" font-size="13">
-    <text x="225" y="75" fill="#79C0FF">{</text>
-    
-    <text x="245" y="100">
-      <tspan fill="#FF7B72">"developer"</tspan><tspan fill="#C9D1D9">: </tspan><tspan fill="#A5D6FF">"Mateo Lopez"</tspan><tspan fill="#C9D1D9">,</tspan>
-    </text>
-    
-    <text x="245" y="125">
-      <tspan fill="#FF7B72">"role"</tspan><tspan fill="#C9D1D9">: </tspan><tspan fill="#A5D6FF">"Estudiante de Ing. en Sistemas"</tspan><tspan fill="#C9D1D9">,</tspan>
-    </text>
-    
-    <text x="245" y="150">
-      <tspan fill="#FF7B72">"languages"</tspan><tspan fill="#C9D1D9">: [</tspan><tspan fill="#7EE787">"Python"</tspan><tspan fill="#C9D1D9">, </tspan><tspan fill="#7EE787">"Java"</tspan><tspan fill="#C9D1D9">, </tspan><tspan fill="#7EE787">"C"</tspan><tspan fill="#C9D1D9">],</tspan>
-    </text>
-    
-    <text x="245" y="175">
-      <tspan fill="#FF7B72">"database"</tspan><tspan fill="#C9D1D9">: [</tspan><tspan fill="#7EE787">"PostgreSQL"</tspan><tspan fill="#C9D1D9">],</tspan>
-    </text>
-    
-    <text x="245" y="200">
-      <tspan fill="#FF7B72">"environment"</tspan><tspan fill="#C9D1D9">: [</tspan><tspan fill="#7EE787">"Linux"</tspan><tspan fill="#C9D1D9">, </tspan><tspan fill="#7EE787">"Git"</tspan><tspan fill="#C9D1D9">, </tspan><tspan fill="#7EE787">"GitHub Actions"</tspan><tspan fill="#C9D1D9">],</tspan>
-    </text>
-    
-    <text x="245" y="225">
-      <tspan fill="#FF7B72">"focus"</tspan><tspan fill="#C9D1D9">: </tspan><tspan fill="#A5D6FF">"Software Escalable &amp; Hardware"</tspan><tspan fill="#C9D1D9">,</tspan>
-    </text>
-    
-    <text x="245" y="250">
-      <tspan fill="#FF7B72">"status"</tspan><tspan fill="#C9D1D9">: </tspan><tspan fill="#A5D6FF">"Construyendo y optimizando..."</tspan>
-    </text>
-    
-    <text x="225" y="275" fill="#79C0FF">}</text>
-  </g>
+<svg fill="none" viewBox="0 0 800 370" width="800" height="370" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .ide-window {
+          background-color: #0f141c;
+          border: 1px solid #1e293b;
+          border-radius: 12px;
+          overflow: hidden;
+          font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace;
+          color: #e2e8f0;
+          box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+          width: 798px;
+          height: 368px;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+        }
+
+        /* Top Bar */
+        .title-bar {
+          background-color: #0b0e14;
+          height: 38px;
+          display: flex;
+          align-items: center;
+          padding: 0 16px;
+          border-bottom: 1px solid #1e293b;
+          justify-content: space-between;
+        }
+        .window-controls {
+          display: flex;
+          gap: 8px;
+        }
+        .ctrl {
+          width: 11px;
+          height: 11px;
+          border-radius: 50%;
+        }
+        .c-red { background: #f43f5e; }
+        .c-yellow { background: #eab308; }
+        .c-green { background: #10b981; }
+
+        .tabs {
+          display: flex;
+          height: 100%;
+          align-items: flex-end;
+          gap: 2px;
+        }
+        .tab {
+          font-size: 12px;
+          padding: 6px 14px;
+          background: #0b0e14;
+          color: #64748b;
+          border-radius: 6px 6px 0 0;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .tab.active {
+          background: #0f141c;
+          color: #38bdf8;
+          border-top: 2px solid #38bdf8;
+        }
+
+        .workspace-tag {
+          font-size: 11px;
+          color: #475569;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+        }
+
+        /* Editor Layout */
+        .editor-container {
+          display: flex;
+          flex: 1;
+        }
+
+        /* Sidebar */
+        .sidebar {
+          width: 180px;
+          background-color: #0b0e14;
+          border-right: 1px solid #1e293b;
+          padding: 15px 12px;
+          font-size: 12px;
+          box-sizing: border-box;
+        }
+        .sidebar-title {
+          font-size: 10px;
+          font-weight: 700;
+          color: #64748b;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          margin-bottom: 12px;
+        }
+        .file-tree {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+        .tree-item {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: #94a3b8;
+        }
+        .tree-item.active {
+          color: #f1f5f9;
+          font-weight: bold;
+        }
+
+        /* Code Area */
+        .code-area {
+          flex: 1;
+          padding: 16px 20px;
+          font-size: 13px;
+          line-height: 1.65;
+          display: flex;
+        }
+        .line-numbers {
+          color: #334155;
+          padding-right: 18px;
+          text-align: right;
+          user-select: none;
+        }
+        .code-lines {
+          flex: 1;
+        }
+
+        /* Syntax Highlighting */
+        .k { color: #f43f5e; font-weight: 600; }
+        .s { color: #34d399; }
+        .p { color: #94a3b8; }
+        .b { color: #38bdf8; }
+
+        /* Cursor Animation */
+        .cursor {
+          display: inline-block;
+          width: 7px;
+          height: 15px;
+          background-color: #38bdf8;
+          margin-left: 4px;
+          vertical-align: middle;
+          animation: blink 1s infinite;
+        }
+        @keyframes blink {
+          0%, 49% { opacity: 1; }
+          50%, 100% { opacity: 0; }
+        }
+
+        /* Status Bar */
+        .status-bar {
+          background: #0284c7;
+          height: 22px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 12px;
+          font-size: 11px;
+          color: #f0f9ff;
+          font-weight: 500;
+        }
+        .status-left, .status-right {
+          display: flex;
+          gap: 14px;
+          align-items: center;
+        }
+      </style>
+
+      <div class="ide-window">
+        <!-- Top Title Bar -->
+        <div class="title-bar">
+          <div class="window-controls">
+            <span class="ctrl c-red"></span>
+            <span class="ctrl c-yellow"></span>
+            <span class="ctrl c-green"></span>
+          </div>
+
+          <div class="tabs">
+            <div class="tab"><span>⚙️</span> config.sys</div>
+            <div class="tab active"><span>⚡</span> profile.json</div>
+          </div>
+
+          <div class="workspace-tag">MATEO // DEV-ENV</div>
+        </div>
+
+        <!-- Editor View -->
+        <div class="editor-container">
+          <!-- Sidebar Tree -->
+          <div class="sidebar">
+            <div class="sidebar-title">Explorer</div>
+            <div class="file-tree">
+              <div class="tree-item">📁 <span>src</span></div>
+              <div class="tree-item active">📄 <span>profile.json</span></div>
+              <div class="tree-item">📄 <span>main.c</span></div>
+              <div class="tree-item">📄 <span>App.java</span></div>
+              <div class="tree-item">📄 <span>script.py</span></div>
+            </div>
+          </div>
+
+          <!-- Code View -->
+          <div class="code-area">
+            <div class="line-numbers">
+              1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8<br/>9<br/>10<br/>11
+            </div>
+            <div class="code-lines">
+              <span class="p">{</span><br/>
+              &#160;&#160;<span class="k">"developer"</span><span class="p">:</span> <span class="s">"Mateo Lopez"</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"role"</span><span class="p">:</span> <span class="s">"Estudiante de Ing. en Sistemas"</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"languages"</span><span class="p">:</span> <span class="b">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">"Java"</span><span class="p">,</span> <span class="s">"C"</span><span class="b">]</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"database"</span><span class="p">:</span> <span class="b">[</span><span class="s">"PostgreSQL"</span><span class="b">]</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"environment"</span><span class="p">:</span> <span class="b">[</span><span class="s">"Linux"</span><span class="p">,</span> <span class="s">"Git"</span><span class="p">,</span> <span class="s">"GitHub Actions"</span><span class="b">]</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"focus"</span><span class="p">:</span> <span class="s">"Software Escalable &amp; Hardware"</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"status"</span><span class="p">:</span> <span class="s">"Construyendo y optimizando..."</span><span class="cursor"></span><br/>
+              <span class="p">}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Status Bar -->
+        <div class="status-bar">
+          <div class="status-left">
+            <span>⎇ main*</span>
+            <span>✓ 0 errors</span>
+          </div>
+          <div class="status-right">
+            <span>UTF-8</span>
+            <span>JSON</span>
+            <span>Spaces: 2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
 </svg>
