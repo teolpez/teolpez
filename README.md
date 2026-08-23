@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/teolpez/teolpez/main/terminal.svg" alt="Mateo Lopez" width="100%">
+  <img src="terminal.svg" alt="Mateo Lopez" />
 </p>
 
 <p align="center">
