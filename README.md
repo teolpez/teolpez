@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="terminal.svg" alt="Mateo Lopez" />
+  <img src="terminal.svg" width="100%" />
 </p>
 
 <p align="center">
