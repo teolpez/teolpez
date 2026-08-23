@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="terminal.svg" width="100%" />
+  <a href="https://github.com/teolpez" style="cursor: default;">
+    <img src="terminal.svg" width="100%" />
+  </a>
 </p>
 
 <p align="center">
