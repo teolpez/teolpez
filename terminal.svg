@@ -127,11 +127,10 @@
         }
 
         /* Syntax Highlighting */
-        .k { color: #f43f5e; font-weight: 600; } /* Key / Property */
-        .s { color: #34d399; }                   /* String */
-        .p { color: #94a3b8; }                   /* Punctuation */
-        .b { color: #38bdf8; }                   /* Bracket */
-        .c { color: #64748b; font-style: italic;}/* Comment */
+        .k { color: #f43f5e; font-weight: 600; }
+        .s { color: #34d399; }
+        .p { color: #94a3b8; }
+        .b { color: #38bdf8; }
 
         /* Cursor Animation */
         .cursor {
@@ -181,7 +180,7 @@
             <div class="tab active"><span>⚡</span> profile.json</div>
           </div>
 
-          <div class="workspace-tag">TEO // DEV-ENV</div>
+          <div class="workspace-tag">MATEO // DEV-ENV</div>
         </div>
 
         <!-- Editor View -->
@@ -205,7 +204,7 @@
             </div>
             <div class="code-lines">
               <span class="p">{</span><br/>
-              &nbsp;&nbsp;<span class="k">"developer"</span><span class="p">:</span> <span class="s">"Teo López"</span><span class="p">,</span><br/>
+              &nbsp;&nbsp;<span class="k">"developer"</span><span class="p">:</span> <span class="s">"Mateo Lopez"</span><span class="p">,</span><br/>
               &nbsp;&nbsp;<span class="k">"role"</span><span class="p">:</span> <span class="s">"Estudiante de Ing. en Sistemas"</span><span class="p">,</span><br/>
               &nbsp;&nbsp;<span class="k">"languages"</span><span class="p">:</span> <span class="b">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">"Java"</span><span class="p">,</span> <span class="s">"C"</span><span class="b">]</span><span class="p">,</span><br/>
               &nbsp;&nbsp;<span class="k">"database"</span><span class="p">:</span> <span class="b">[</span><span class="s">"PostgreSQL"</span><span class="b">]</span><span class="p">,</span><br/>
