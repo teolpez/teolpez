@@ -16,7 +16,7 @@ Estoy enfocado en construir software escalable, resolver problemas de arquitectu
 </div>
 ---
 
-### 🚀 Sobre mí
+### Sobre mí
 - 💻 **Especialidad:** Desarrollo de software, diseño de arquitecturas y buenas prácticas de ingeniería.
 - 🔧 **Mentalidad:** Enfoque práctico y orientado a resolver problemas, con atención al detalle tanto en código como en proyectos mecánicos/hardware.
 - 📚 **Aprendizaje continuo:** Explorando continuamente nuevas herramientas, tecnologías y frameworks del ecosistema tech.
