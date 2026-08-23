@@ -16,24 +16,7 @@
 
 ---
 
-### 🚀 Sobre mí
-- 💻 **Especialidad:** Desarrollo de software, diseño de arquitecturas y buenas prácticas de ingeniería.
-- 🔧 **Mentalidad:** Enfoque práctico y orientado a resolver problemas, con atención al detalle tanto en código como en proyectos mecánicos y de hardware.
-- 📚 **Aprendizaje continuo:** Explorando continuamente nuevas herramientas, tecnologías y frameworks del ecosistema tech.
-
----
-
-### 🛠️ Stack & Herramientas
-
-| Área | Tecnologías / Herramientas |
-| :--- | :--- |
-| **Lenguajes** | `Python` • `Java` • `C` |
-| **Bases de Datos** | `PostgreSQL` |
-| **Entorno & DevOps** | `Linux` • `Git` • `GitHub Actions` |
-
----
-
-### 📊 Actividad & Métricas
+### Actividad & Métricas
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=teolpez&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
@@ -46,6 +29,6 @@
 
 ---
 
-### 📫 Contacto
+### Contacto
 - **LinkedIn:** [linkedin.com/in/teolpz](https://www.linkedin.com/in/teolpz)
 - **Email:** [teolpez332@gmail.com](mailto:teolpez332@gmail.com)
