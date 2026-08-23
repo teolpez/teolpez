@@ -29,6 +29,12 @@
 </p>
 
 ---
+### Contribuciones
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/teolpez/teolpez/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+</p>
+---
 
 ### Contacto
 - **LinkedIn:** [linkedin.com/in/teolpz](https://www.linkedin.com/in/teolpz)
