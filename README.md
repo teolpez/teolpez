@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="terminal.svg" alt="Mateo Lopez Profile Card" width="100%" />
+  <img src="terminal.svg" alt="Mateo Lopez Profile Card" />
 </p>
 
 <p align="center">
