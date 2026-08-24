@@ -204,13 +204,12 @@
             </div>
             <div class="code-lines">
               <span class="p">{</span><br/>
-              &#160;&#160;<span class="k">"developer"</span><span class="p">:</span> <span class="s">"Mateo Lopez"</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"developer"</span><span class="p">:</span> <span class="s">"Lopez Mateo"</span><span class="p">,</span><br/>
               &#160;&#160;<span class="k">"role"</span><span class="p">:</span> <span class="s">"Estudiante de Ing. en Sistemas"</span><span class="p">,</span><br/>
-              &#160;&#160;<span class="k">"languages"</span><span class="p">:</span> <span class="b">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">"Java"</span><span class="p">,</span> <span class="s">"C"</span><span class="b">]</span><span class="p">,</span> <span class="s">"HTML"</span><span class="p">,</span><br/>
+              &#160;&#160;<span class="k">"languages"</span><span class="p">:</span> <span class="b">[</span><span class="s">"Python"</span><span class="p">,</span> <span class="s">"Java"</span><span class="p">,</span> <span class="s">"C"</span>,</span> <span class="s">"HTML"</span><span class="b">]</span><span class="p"><span class="p">,</span><br/>
               &#160;&#160;<span class="k">"database"</span><span class="p">:</span> <span class="b">[</span><span class="s">"PostgreSQL"</span><span class="b">]</span><span class="p">,</span><br/>
               &#160;&#160;<span class="k">"environment"</span><span class="p">:</span> <span class="b">[</span><span class="s">"Linux"</span><span class="p">,</span> <span class="s">"Git"</span><span class="p">,</span> <span class="s">"GitHub Actions"</span><span class="b">]</span><span class="p">,</span><br/>
               &#160;&#160;<span class="k">"focus"</span><span class="p">:</span> <span class="s">"Software Escalable &amp; Hardware"</span><span class="p">,</span><br/>
-              &#160;&#160;<span class="k">"status"</span><span class="p">:</span> <span class="s">"Construyendo y optimizando..."</span><span class="cursor"></span><br/>
               <span class="p">}</span>
             </div>
           </div>
